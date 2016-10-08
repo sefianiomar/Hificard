@@ -1,0 +1,223 @@
+
+.footer_p{
+    position: absolute;
+    bottom: 101px;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    line-height: 45px;
+}
+.footer_c {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 45px;
+    left: 0px;
+    line-height: 45px;
+}
+.fluid-container {
+    width: 100%;
+    background: white;
+    margin: 0 auto;
+    zoom: 1; 
+}
+
+.fluid-container:after, .fluid-container:before {
+    display: table;
+    content: "";
+    zoom: 1;
+}
+
+.site-footer-top {
+    font-size: 11px;
+    padding: 0.545455em 0 2.181818em;
+    margin: auto;
+}
+@media (min-width: 1400px) {
+    .site-footer-top {
+    width: 69.666667%;
+    padding-left: 338px; } }
+  @media (min-width: 1300px) and (max-width: 1400px) {
+    .site-footer-top {
+    width: 69.666667%;
+    padding-left: 286px; } }
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .site-footer-top {
+      width: 1088px;
+       padding-left: 161px; } }
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    .site-footer-top {
+    width: 970px;
+    padding-left: 160px;
+    } }
+  @media (min-width: 992px) and (max-width: 1100px) {
+    .site-footer-top {
+      width: 886px;
+      padding-left: 125px; } }
+  @media (max-width: 992px) {
+   .site-footer-top {
+    width: 776px;
+    padding-left: 121px;
+  } }
+  @media (max-width: 875px) {
+    .site-footer-top {
+      width: 709px; } }
+  @media (max-width: 731px) {
+    .site-footer-top {
+      width: 416px;
+      padding-left: 31px; } }
+.context {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.site-footer-top li {
+    margin-bottom: -2.090909em;
+}
+
+.site-footer-top a {
+    color: #2c4b89;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gr{
+    width: 100%;
+    zoom: 1;
+}
+
+.gu-1of6 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: 0 0;
+}
+  @media (min-width: 1300px) {
+    .gu-1of6 {  
+        width: 118px; } }
+  @media (min-width: 1100px) and (max-width: 1300px) {
+    .gu-1of6 {
+    width: 126px;
+   } }
+  @media (min-width: 992px) and (max-width: 1100px) {
+    .gu-1of6 {
+    width: 122px;
+  }}
+  @media (max-width: 992px) {
+    .gu-1of6 {
+      width: 108px; } }
+  @media (max-width: 875px) {
+    .gu-1of6 {
+      width: 108px; } }
+  @media (max-width: 731px) {
+    .gu-1of6 {
+      width: 118px; } }
+
+.gu {
+    float: left;
+}
+
+.site-footer-bottom {
+    background-color: #2c4b89;
+    color: white;
+    line-height: 1.55;  
+    font-size: 13px;
+    font-weight: 600;
+}
+  @media (min-width: 731px) {
+    .site-footer-bottom {
+      margin-left: -130px; } }
+  @media (max-width: 731px) {
+    .site-footer-bottom {
+      margin-left: -47px; } }
+
+.fluid-containerp{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    margin-top: -2px;
+}
+  @media (min-width: 1300px) {
+    .fluid-containerp {
+      width: 1129px;
+      padding-left: 90px; } }
+  @media (min-width: 1200px) and (max-width: 1300px) {
+    .fluid-containerp {
+      width: 1172px; } }
+  @media (min-width: 1100px) and (max-width: 1200px) {
+    .fluid-containerp {
+      width: 1108px;
+      padding-left: 72px; } }
+  @media (min-width: 992px) and (max-width: 1100px) {
+    .fluid-containerp {
+      width: 842px; } }
+  @media (max-width: 992px) {
+    .fluid-containerp {
+      width: 833px; } }
+  @media (max-width: 875px) {
+    .fluid-containerp {
+      width: 721px; } }
+  @media (max-width: 731px) {
+    .fluid-containerp {
+      width: 406px; } }
+
+.site-footer-bottom a{
+  color:white;
+  font-size: 13px;
+    font-weight: 600;
+}
+
+.pbs, .pvs {
+    padding-bottom: 16px!important;
+}
+
+.pts, .pvs {
+    padding-top: 16px!important;
+}
+
+.center, .gr-zebra .gu, .tac {
+    text-align: center;
+}
+
+.site-footer-bottom .lng {
+    text-transform: capitalize;
+    margin-top: -1.8181818182em;
+    padding-top: 1.6363636364em;
+    position: relative;
+    text-align: right;
+}
+
+.floatR, .fr {
+    float: right;
+}
+
+.dispi {
+    display: inline;
+}
+
+.site-footer-bottom .lng-active {
+    cursor: default;
+    color: #fff;
+}
+
+.site-footer-bottom .lng ul {
+    background-color: #191919;
+    border-color: #575757;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2.3636363636em;
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .5s ease 0s;
+    -moz-transition: opacity .5s ease 0s;
+    transition: opacity .5s ease 0s;
+}
+
+.mhs, .mrs {
+    margin-right: 26px !important;
+ }
+

@@ -1,0 +1,118 @@
+.body_sign{
+    display: block;   
+    padding-bottom: 15px;
+    padding-top: 36px;
+}
+
+  @media (max-width: 900px) {
+    .body_sign {
+      background-size: 111% 100%;
+       } }
+  @media (min-width: 900px) {
+    .body_sign {
+      background-size: 104%; } }
+  @media (max-width: 700px) {
+    .body_sign {
+      background-image: url(../back.jpg);
+      background-position: 0px 11px;
+      background-repeat: no-repeat
+      background-position-y: inherit;
+      background-size: 104%; } }
+
+
+.pan_sigup {
+      border-radius: 0px;
+      font-size: 14px;
+      display: block;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgba(129, 137, 128, 0.42);
+      margin-top: 42px !important;
+      height: 453px;
+}
+  @media (max-width: 700px) {
+    .pan_sigup {
+      padding: 39px 27px; } }
+  @media (min-width: 700px) {
+    .pan_sigup {
+      padding: 53px 307px;
+      } }
+.cont_sigup {
+    margin: 0 auto;
+    height: 489px;
+}
+  @media (max-width: 700px) {
+    .cont_sigup {
+      width: 363px; } }
+  @media (min-width: 700px) {
+    .cont_sigup {
+      width: 1001px;
+      } }
+
+.lbl_sigup{
+    display: block;
+    margin-bottom: 7px;
+    font-weight: normal;
+}
+.in_sigup{
+    padding: 5px 0;
+    width: 300px;
+}
+.top_sigup{
+        padding: 15px 63px;
+}
+.top_sigup .ic_sigup{
+    background-image: url(../logo_32.png);
+    display: block;
+    background-repeat: no-repeat;
+    padding: 23px 0px;
+    margin-left: 64px;
+
+}
+.top_sigup .tx_sigup{
+    color: #2c4b89;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.inp_sigup{
+    display: block;
+    width: 95%;
+    height: 29px;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #274279;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.btn_signin{
+    padding: 8px 0;
+    width: 147px;
+    background-color: #42b72a;
+    border-color: #3ba226;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 17px;
+    color: white;
+    font-weight: 600;
+    margin-left: 68px;
+    margin-top: 20px;
+}
+
+.bot_sigup {
+    font-size: 12px;
+    display: block;
+    padding-bottom: 23px;
+    text-align: center;
+    margin-top: 11px !important;
+    margin-left: -10px;
+  }
+  .bot_sigup .up_sigup {
+        padding: 12px; 
+  }
+
+
